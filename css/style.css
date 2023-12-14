@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Josefin+Sans:wght@400;500&family=Nunito:ital,wght@0,300;0,500;1,300&family=Poppins:wght@300;400;500&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: #333d29;
+  display: flex;
+  justify-content: center;
+}
+
+header>img{
+  width: 100px; 
+  height: 100px;
+  padding: 5px;
+}
+
+body{
+  background-color: #2c3123;
+  
+}
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
