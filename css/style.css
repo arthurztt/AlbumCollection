@@ -22,8 +22,63 @@ body{
 }
 
 .album-1-img{
-  width: 160px;
+  width: 190px;
+  margin: 60px 0px 0px 30px;
+}
+
+.album-1{
+  display: flex;
+  max-height: 288px;
+  margin-bottom: 20px;
+}
+
+.album-1-main-container{
+  width: 550px;
+  background-color: #23271c;
+  margin: 30px 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.album-1-title{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
   margin: 20px 0px 0px 20px;
+}
+
+.title-by-weak{
+  color: #f6f2e5d1;
+}
+
+.album-1-subtitle{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  color: black;
+  margin: 5px 0px 0px 15px;
+}
+
+.album-1-subtitle{
+  padding: 10px 10px 5px 0px;
+}
+
+.album-1-subtitle-2
+{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  margin: 5px 0px 20px 15px;
+  color: black;
+  padding: 10px 10px 15px 0px;
+}
+
+.subtitles-container{
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  width: 500px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+ul{
+  list-style-type: none;
 }
 
 
