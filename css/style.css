@@ -46,7 +46,7 @@ body{
 }
 
 .title-by-weak{
-  color: #f6f2e5d1;
+  color: #e4e0d5d1;
 }
 
 .album-1-subtitle{
@@ -77,20 +77,34 @@ body{
 }
 
 ul{
+  background-color: rgba(255, 255, 255, 0.726);
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   list-style-type: none;
   max-width: 400px;
-  background-color: white;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 15px 0px 15px;
   text-align: center;
+  border-radius: 3px;
+}
+
+ul>.album-1-musics-top{
+  padding-top: 8px;
+}
+
+ul>.album-1-musics-bottom{
+  padding-bottom: 10px;
+}
+
+ul>li{
+  font-size: 0.8rem;
 }
 
 .music-album-card{
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 285px;
   background-color: #353b2a;
   margin: 20px 0px 0px 30px;
+  border-radius: 3px;
 }
 
 
