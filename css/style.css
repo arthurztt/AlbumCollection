@@ -18,7 +18,7 @@ header>img{
 }
 
 body{
-  background-color: #2c3123;
+  background-color: #25291e;
 }
 
 .album-1-img{
@@ -34,7 +34,7 @@ body{
 
 .album-1-main-container{
   width: 550px;
-  background-color: #23271c;
+  background-color: #353b2a;
   margin: 30px 0px 0px 20px;
   border-radius: 3px;
 }
@@ -51,22 +51,21 @@ body{
 
 .album-1-subtitle{
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 0.9rem;
   color: black;
   margin: 5px 0px 0px 15px;
-}
-
-.album-1-subtitle{
-  padding: 10px 10px 5px 0px;
+  padding: 13px 10px 5px 0px;
 }
 
 .album-1-subtitle-2
 {
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 0.9rem;
   margin: 5px 0px 20px 15px;
   color: black;
-  padding: 10px 10px 15px 0px;
+  padding: 10px 10px 25px 0px;
 }
 
 .subtitles-container{
@@ -78,8 +77,22 @@ body{
 }
 
 ul{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   list-style-type: none;
+  max-width: 400px;
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  text-align: center;
 }
+
+.music-album-card{
+  width: 450px;
+  height: 350px;
+  background-color: #353b2a;
+  margin: 20px 0px 0px 30px;
+}
+
 
 
 /*
