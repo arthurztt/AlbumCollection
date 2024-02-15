@@ -23,19 +23,20 @@ body{
 
 .album-1-img{
   width: 190px;
-  margin: 60px 0px 0px 30px;
+  margin: 115px 0px 0px 30px;
 }
 
 .album-1{
   display: flex;
-  max-height: 288px;
+  max-height: 420px;
   margin-bottom: 20px;
 }
 
 .album-1-main-container{
+  height: 250px;
   width: 550px;
   background-color: #353b2a;
-  margin: 30px 0px 0px 20px;
+  margin: 80px 0px 0px 20px;
   border-radius: 3px;
 }
 
@@ -83,7 +84,6 @@ ul{
   list-style-type: none;
   max-width: 400px;
   margin: 20px 15px 0px 15px;
-  text-align: center;
   border-radius: 3px;
 }
 
@@ -96,16 +96,18 @@ ul>.album-1-musics-bottom{
 }
 
 ul>li{
+  padding: 5px 5px 0px 5px;
   font-size: 0.8rem;
 }
 
 .music-album-card{
-  width: 400px;
-  height: 285px;
+  width: 250px;
+  height: 350px;
   background-color: #353b2a;
   margin: 20px 0px 0px 30px;
   border-radius: 3px;
 }
+
 
 
 
