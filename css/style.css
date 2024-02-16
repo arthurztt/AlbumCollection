@@ -18,24 +18,25 @@ header>img{
 }
 
 body{
-  background-color: #2c3123;
+  background-color: #25291e;
 }
 
 .album-1-img{
   width: 190px;
-  margin: 60px 0px 0px 30px;
+  margin: 115px 0px 0px 30px;
 }
 
 .album-1{
   display: flex;
-  max-height: 288px;
+  max-height: 420px;
   margin-bottom: 20px;
 }
 
 .album-1-main-container{
+  height: 250px;
   width: 550px;
-  background-color: #23271c;
-  margin: 30px 0px 0px 20px;
+  background-color: #353b2a;
+  margin: 80px 0px 0px 20px;
   border-radius: 3px;
 }
 
@@ -46,27 +47,26 @@ body{
 }
 
 .title-by-weak{
-  color: #f6f2e5d1;
+  color: #e4e0d5d1;
 }
 
 .album-1-subtitle{
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 0.9rem;
   color: black;
   margin: 5px 0px 0px 15px;
-}
-
-.album-1-subtitle{
-  padding: 10px 10px 5px 0px;
+  padding: 13px 10px 5px 0px;
 }
 
 .album-1-subtitle-2
 {
   font-family: 'Inter', sans-serif;
+  font-weight: 600;
   font-size: 0.9rem;
   margin: 5px 0px 20px 15px;
   color: black;
-  padding: 10px 10px 15px 0px;
+  padding: 10px 10px 25px 0px;
 }
 
 .subtitles-container{
@@ -78,8 +78,37 @@ body{
 }
 
 ul{
+  background-color: rgba(255, 255, 255, 0.726);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
   list-style-type: none;
+  max-width: 400px;
+  margin: 20px 15px 0px 15px;
+  border-radius: 3px;
 }
+
+ul>.album-1-musics-top{
+  padding-top: 8px;
+}
+
+ul>.album-1-musics-bottom{
+  padding-bottom: 10px;
+}
+
+ul>li{
+  padding: 5px 5px 0px 5px;
+  font-size: 0.8rem;
+}
+
+.music-album-card{
+  width: 250px;
+  height: 350px;
+  background-color: #353b2a;
+  margin: 20px 0px 0px 30px;
+  border-radius: 3px;
+}
+
+
 
 .music-album-card{
   width: 232px;
