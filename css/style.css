@@ -79,7 +79,7 @@ body{
 }
 
 .artist-hover:hover{
-  color: #cde1f890;
+  color: #9dd8ff90;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -108,21 +108,12 @@ ul>li{
 }
 
 .music-album-card{
-  width: 250px;
-  height: 330px;
-  background-color: #353b2a;
-  margin: 20px 0px 0px 30px;
-  border-radius: 3px;
-}
-
-
-
-.music-album-card{
   width: 232px;
   background-color: rgba(255, 255, 255, 0.805);
-  padding: 10px 12px 0px 12px;
-  margin: 20px 0px 0px 75px  ;
+  padding: 8px 10px 17px 10px;
+  margin: 28px 0px 0px 75px  ;
   font-size: 0.9rem;
+  border-radius: 5px;  
 }
 
 .tracklist-numb{
@@ -131,6 +122,62 @@ ul>li{
 
 .album-1-musics{
   font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*---------------------Album 2-----------------------*/
+
+.album-2-img{
+  width: 190px;
+  margin: 115px 0px 0px 30px;
+}
+
+.album-2{
+  display: flex;
+  max-height: 420px;
+  margin-bottom: 20px;
+}
+
+
+.album-2-main-container{
+  height: 250px;
+  width: 550px;
+  background-color: #353b2a;
+  margin: 80px 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.album-2-title{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-2-subtitle{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: black;
+  margin: 32px 0px 0px 15px;
+  padding: 15px 10px 25px 0px;
+}
+
+.album-2-subtitle-2
+{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 5px 0px 20px 15px;
+  color: black;
+  padding: 10px 10px 25px 0px;
+}
+
+.subtitles-container{
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  width: 500px;
+  opacity: 0.8;
+  border-radius: 2px;
 }
 
 /*
