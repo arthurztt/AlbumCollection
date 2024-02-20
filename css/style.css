@@ -79,7 +79,7 @@ body{
 }
 
 .artist-hover:hover{
-  color: #c1def2cf;
+  color: #4fb7fdc5;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -130,7 +130,7 @@ ul>li{
 .album-2-img{
   width: 190px;
   height: 170px;
-  margin: 115px 0px 0px 30px;
+  margin: 105px 0px 0px 30px;
 }
 
 .album-2{
@@ -159,18 +159,8 @@ ul>li{
   font-weight: 600;
   font-size: 0.9rem;
   color: black;
-  margin: 32px 0px 0px 15px;
+  margin: 20px 0px 0px 15px;
   padding: 15px 10px 25px 0px;
-}
-
-.album-2-subtitle-2
-{
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  font-size: 0.9rem;
-  margin: 5px 0px 20px 15px;
-  color: black;
-  padding: 10px 10px 25px 0px;
 }
 
 .subtitles-container{
@@ -186,9 +176,80 @@ ul>li{
   height: 220px;
   background-color: rgba(255, 255, 255, 0.708);
   padding: 8px 10px 17px 10px;
-  margin: 85px 0px 0px 75px  ;
+  margin: 65px 0px 0px 75px  ;
   font-size: 0.9rem;
   border-radius: 5px;  
+}
+
+/*-------------------------Album 3-------------------*/
+
+.album-3-img{
+  width: 190px;
+  height: 190px;
+  margin: 1px 0px 0px 30px;
+}
+
+.album-3{
+  display: flex;
+  max-height: 420px;
+  margin-bottom: 20px;
+}
+
+.album-3-main-container{
+  height: 240px;
+  width: 550px;
+  background-color: #353b2a;
+  margin: 90px 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.album-3-title{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-3-subtitle{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: black;
+  margin: 32px 0px 0px 15px;
+  padding: 15px 10px 25px 0px;
+}
+
+.subtitles-container{
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  width: 500px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+.music-album3-card{
+  height: 425px;
+  width: 232px;
+  background-color: rgba(255, 255, 255, 0.708);
+  padding: 8px 10px 17px 10px;
+  margin: 20px 0px 0px 75px  ;
+  font-size: 0.9rem;
+  border-radius: 5px;  
+}
+
+.album-3-img, .album-3-main-container{
+  margin-top: 140px;
+}
+
+.album-3>img{
+  margin-top: 165px;
+}
+
+/*--------------------Album 4------------------------*/
+
+.album-4-img{
+  width: 190px;
+  height: 190px;
+  margin: 115px 0px 0px 30px;
 }
 
 /*
