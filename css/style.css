@@ -79,7 +79,7 @@ body{
 }
 
 .artist-hover:hover{
-  color: #9dd8ff90;
+  color: #c1def2cf;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -98,7 +98,7 @@ ul>.album-1-musics-top{
   padding-top: 8px;
 }
 
-ul>.album-1-musics-bottom{
+ul>.bottom{
   padding-bottom: 10px;
 }
 
@@ -109,7 +109,7 @@ ul>li{
 
 .music-album-card{
   width: 232px;
-  background-color: rgba(255, 255, 255, 0.805);
+  background-color: rgba(255, 255, 255, 0.708);
   padding: 8px 10px 17px 10px;
   margin: 28px 0px 0px 75px  ;
   font-size: 0.9rem;
@@ -129,6 +129,7 @@ ul>li{
 
 .album-2-img{
   width: 190px;
+  height: 170px;
   margin: 115px 0px 0px 30px;
 }
 
@@ -140,7 +141,7 @@ ul>li{
 
 
 .album-2-main-container{
-  height: 250px;
+  height: 220px;
   width: 550px;
   background-color: #353b2a;
   margin: 80px 0px 0px 20px;
@@ -178,6 +179,16 @@ ul>li{
   width: 500px;
   opacity: 0.8;
   border-radius: 2px;
+}
+
+.music-album2-card{
+  width: 232px;
+  height: 220px;
+  background-color: rgba(255, 255, 255, 0.708);
+  padding: 8px 10px 17px 10px;
+  margin: 85px 0px 0px 75px  ;
+  font-size: 0.9rem;
+  border-radius: 5px;  
 }
 
 /*
