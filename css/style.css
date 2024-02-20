@@ -9,6 +9,11 @@ header{
   background-color: #333d29;
   display: flex;
   justify-content: center;
+  box-shadow: 0px 5px 5px 0px rgb(0, 0, 0);
+}
+
+div>.separator{
+  margin-left: 720px;
 }
 
 header>img{
@@ -19,6 +24,11 @@ header>img{
 
 body{
   background-color: #25291e;
+}
+
+.album-1-background{
+  height: 400px;
+  background-color: #56604563;
 }
 
 .album-1-img{
@@ -35,7 +45,7 @@ body{
 .album-1-main-container{
   height: 250px;
   width: 550px;
-  background-color: #353b2a;
+  background-color: #2a3022;
   margin: 80px 0px 0px 20px;
   border-radius: 3px;
 }
@@ -125,6 +135,7 @@ ul>li{
 }
 
 
+
 /*---------------------Album 2-----------------------*/
 
 .album-2-img{
@@ -136,7 +147,7 @@ ul>li{
 .album-2{
   display: flex;
   max-height: 420px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 
@@ -183,6 +194,12 @@ ul>li{
 
 /*-------------------------Album 3-------------------*/
 
+
+.album-3-background{
+  height: 500px;
+  background-color: #56604563;
+}
+
 .album-3-img{
   width: 190px;
   height: 190px;
@@ -198,7 +215,7 @@ ul>li{
 .album-3-main-container{
   height: 240px;
   width: 550px;
-  background-color: #353b2a;
+  background-color: #2a3022;
   margin: 90px 0px 0px 20px;
   border-radius: 3px;
 }
