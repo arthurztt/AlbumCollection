@@ -56,6 +56,21 @@ body{
   margin: 20px 0px 0px 20px;
 }
 
+.access-hover:hover{
+  filter: invert(1);
+  transition: 0.2s;
+}
+
+.access-div{
+  display: flex;
+  gap:290px;
+}
+
+.spotify-access{
+  width: 20px;
+  margin-top: 20px;
+}
+
 .album-1-subtitle{
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -89,7 +104,7 @@ body{
 }
 
 .artist-hover:hover{
-  color: #4fb7fdc5;
+  color: #4fb7fddf;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -268,6 +283,66 @@ ul>li{
   height: 190px;
   margin: 115px 0px 0px 30px;
 }
+
+.album-4{
+  display: flex;
+  max-height: 420px;
+  margin-bottom: 20px;
+}
+
+
+.album-4-main-container{
+  height: 240px;
+  width: 550px;
+  background-color: #353b2a;
+  margin: 90px 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.album-4{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-4-title{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-4-subtitle{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: black;
+  margin: 2px 0px 0px 15px;
+  padding: 15px 10px 5px 0px;
+}
+#bottom-sub{
+  padding: 5px 0px px 0px;
+}
+
+.subtitles-container{
+  background-color: white;
+  margin: 20px 0px 0px 20px;
+  width: 500px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+
+.music-album4-card{
+  color: black;
+  width: 232px;
+  height: 140px;
+  background-color: rgba(255, 255, 255, 0.708);
+  padding: 8px 10px 17px 10px;
+  margin: 145px 0px 0px 75px  ;
+  font-size: 0.9rem;
+  border-radius: 5px;  
+}
+
 
 /*
  topo, direita, baixo, esquerda
