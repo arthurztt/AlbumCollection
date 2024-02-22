@@ -58,7 +58,7 @@ body{
 
 .spotify-access:hover{
   filter: brightness(0) saturate(100%) invert(74%) sepia(46%) saturate(21%) hue-rotate(45deg) brightness(95%) contrast(95%);
-  transition: 0.2s;
+  transition: 0.4s;
 }
 
 .access-div{
@@ -93,7 +93,7 @@ body{
 
 .subtitles-container{
   background-color: white;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 20px 20px 20px;
   width: 500px;
   opacity: 0.8;
   border-radius: 2px;
@@ -154,6 +154,10 @@ ul>li{
 
 /*---------------------Album 2-----------------------*/
 
+div>.access-div.gap-2{
+  gap:273px;
+}
+
 .album-2-img{
   width: 190px;
   height: 170px;
@@ -192,7 +196,7 @@ ul>li{
 
 .subtitles-container{
   background-color: white;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 30px 20px 20px;
   width: 500px;
   opacity: 0.8;
   border-radius: 2px;
@@ -210,6 +214,9 @@ ul>li{
 
 /*-------------------------Album 3-------------------*/
 
+div>.access-div.gap-3{
+  gap:320px;
+}
 
 .album-3-background{
   height: 500px;
@@ -247,13 +254,13 @@ ul>li{
   font-weight: 600;
   font-size: 0.9rem;
   color: black;
-  margin: 32px 0px 0px 15px;
+  margin: 25px 0px 0px 15px;
   padding: 15px 10px 25px 0px;
 }
 
 .subtitles-container{
   background-color: white;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 20px 20px 20px;
   width: 500px;
   opacity: 0.8;
   border-radius: 2px;
@@ -279,6 +286,10 @@ ul>li{
 
 /*--------------------Album 4------------------------*/
 
+div>.access-div.gap-4{
+  gap:175px;
+}
+
 .album-4-img{
   width: 190px;
   height: 190px;
@@ -301,6 +312,7 @@ ul>li{
 }
 
 .album-4{
+  height: 400px;
   color: #ebe8dd;
   font-family: 'Poppins', sans-serif;
   margin: 20px 0px 0px 20px;
@@ -320,13 +332,14 @@ ul>li{
   margin: 2px 0px 0px 15px;
   padding: 15px 10px 5px 0px;
 }
+
 #bottom-sub{
-  padding: 5px 0px px 0px;
+  padding: 5px 10px 25px 0px;
 }
 
 .subtitles-container{
   background-color: white;
-  margin: 20px 0px 0px 20px;
+  margin: 20px 20px 20px 20px;
   width: 500px;
   opacity: 0.8;
   border-radius: 2px;
@@ -343,6 +356,80 @@ ul>li{
   font-size: 0.9rem;
   border-radius: 5px;  
 }
+
+/*--------------------------------------Album5-----------------------------*/
+
+div>.access-div.gap-5{
+  gap:250px;
+}
+.album-5-background{
+  height: 460px;
+  background-color: #56604563;
+}
+
+.album-5-img{
+  width: 190px;
+  height: 190px;
+  margin: 115px 0px 0px 30px;
+}
+
+.album-5{
+  display: flex;
+  max-height: 420px;
+  margin-bottom: 20px;
+}
+
+
+.album-5-main-container{
+  height: 265px;
+  width: 550px;
+  background-color: #2a3022;
+  margin: 90px 0px 0px 20px;
+  border-radius: 3px;
+}
+
+.album-5{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-5-title{
+  color: #ebe8dd;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0px 0px 20px;
+}
+
+.album-5-subtitle{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: black;
+  margin: 2px 0px 0px 15px;
+  padding: 15px 20px 5px 0px;
+}
+
+
+.subtitles-container{
+  background-color: white;
+  margin: 20px 20px 20px 20px;
+  width: 500px;
+  opacity: 0.8;
+  border-radius: 2px;
+}
+
+
+.music-album5-card{
+  color: black;
+  width: 232px;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.708);
+  padding: 8px 10px 17px 10px;
+  margin: 40px 0px 0px 75px  ;
+  font-size: 0.9rem;
+  border-radius: 5px;  
+}
+
 
 
 /*
