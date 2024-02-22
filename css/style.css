@@ -56,8 +56,8 @@ body{
   margin: 20px 0px 0px 20px;
 }
 
-.access-hover:hover{
-  filter: invert(1);
+.spotify-access:hover{
+  filter: brightness(0) saturate(100%) invert(74%) sepia(46%) saturate(21%) hue-rotate(45deg) brightness(95%) contrast(95%);
   transition: 0.2s;
 }
 
@@ -67,8 +67,9 @@ body{
 }
 
 .spotify-access{
+  filter: invert(1);
   width: 20px;
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .album-1-subtitle{
