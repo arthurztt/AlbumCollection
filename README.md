@@ -1,6 +1,6 @@
 # AlbumCollection
 
-## Feito com HTML, CSS (futuramente JS e MySQL)
+## Feito com HTML, CSS, JS (futuramente MySQL)
 
 Projeto pessoal, de um website com um conjunto de albuns que pessoalmente gosto bastante, com informações do album como : 
 
